@@ -13,7 +13,7 @@ jobs:
       - name: 🌀 Clone the Repo 🌀
         uses: actions/checkout@master
         with:
-          repository: painboi2008/botstatus
+          repository: PAINBOI2008/BotStatus
       - name: 📀 Install dependency. 📀
         run: |
           pip install pytz telethon pygithub

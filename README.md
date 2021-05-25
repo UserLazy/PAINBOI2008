@@ -2,9 +2,17 @@
 
 ## 𝓣𝓱𝓲𝓼 𝓦𝓸𝓻𝓵𝓭 𝓢𝓱𝓪𝓵𝓵 𝓚𝓷𝓸𝔀 𝓟𝓪𝓲𝓷! 
 
+<a href="https://t.me/PAIN7177">
+<p align="center" >
+  <img src="https://telegra.ph/file/42c7dabdd4ac3153460eb.jpg" alt="me">
+</p>
+</a>
+
+<start>
 
 
-<a href="https://github.com/PAINBOI200I">
+<end>
+<a href="https://github.com/PAINBOI2008">
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=PAINNOI2008&color=blue&style=flat-square&label=Profile%20Views" width="156">
 <img src="https://img.shields.io/github/followers/PAINBOI2008?style=for-the-badge"  alt="pain's followers">  

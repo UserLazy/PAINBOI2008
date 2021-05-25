@@ -1,0 +1,31 @@
+name: ⚡️ Update Status. ⚡️
+on:
+  schedule:
+      - cron: "0 */3 * * *"
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🐍 Set up Python 3.9 🐍
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: 🌀 Clone the Repo 🌀
+        uses: actions/checkout@master
+        with:
+          repository: painboi2008/botstatus
+      - name: 📀 Install dependency. 📀
+        run: |
+          pip install pytz telethon pygithub
+          pip install --upgrade pip
+      - name: 🏃‍♂️ run the bot. 🏃‍♂️
+        run: |
+          python3 bot.py
+        env:
+          REPO: ${{ secrets.REPO }}
+          SESSION: ${{ secrets.SESSION }}
+          APP_ID: ${{ secrets.APP_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          TOKEN: ${{ secrets.TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          MESSAGE_ID: ${{ secrets.MESSAGE_ID }}
